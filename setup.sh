@@ -21,7 +21,9 @@ echo "eula=true" > eula.txt
 mkdir mods
 
 # Example mod download (replace with actual mod URLs)
-wget https://github.com/mtroope/minecraftserver/tree/main/mods/mod.jar -O mods/mod.jar
+wget https://github.com/mtroope/minecraftserver/tree/main/fabric-api-0.87.2+1.19.4.jar -O mods/
+wget https://github.com/mtroope/minecraftserver/tree/main/fabric-api-0.87.2+1.19.4.jar -O mods/fabric-api-0.87.2+1.19.4.jar
+
 
 # Create a startup script
 cat <<EOL > start.sh
