@@ -35,7 +35,7 @@ fi
 
 # Example mod download with checksum verification (replace with actual mod URLs and checksums)
 mod_url="https://github.com/mtroope/minecraftserver/raw/main/minecraftgpt-1.0.0.jar"
-mod_checksum="minecraftgpt-1.0.0.jar"
+mod_checksum="6DAFF17B53255B94E45A92D9516D5E27545FA1094499181F11EC58434B332E54"
 wget $mod_url -O mods/mod.jar
 
 # Verify the checksum
