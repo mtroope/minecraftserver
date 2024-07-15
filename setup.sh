@@ -21,7 +21,7 @@ echo "eula=true" > eula.txt
 mkdir mods
 
 # Example mod download (replace with actual mod URLs)
-wget https://example.com/path/to/your/mod.jar -O mods/mod.jar
+wget https://github.com/mtroope/minecraftserver/tree/main/mods/mod.jar -O mods/mod.jar
 
 # Create a startup script
 cat <<EOL > start.sh
