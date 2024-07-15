@@ -20,31 +20,6 @@ echo "eula=true" > eula.txt
 # Create mods directory
 mkdir mods
 
-
-# Example mod download with checksum verification (replace with actual mod URLs and checksums)
-#mod_url="https://github.com/mtroope/minecraftserver/raw/main/fabric-api-0.87.2+1.19.4.jar"
-#mod_checksum="A92650D48A9F672DC74E8B1EAEFEDB28DC83A13A80431215900181AA3A8675D8"
-#wget $mod_url -O mods/fabric-api-0.87.2+1.19.4.jar
-
-# Verify the checksum
-#downloaded_checksum=$(sha256sum mods/fabric-api-0.87.2+1.19.4.jar | awk '{ print $1 }')
-#if [ "$downloaded_checksum" != "$mod_checksum" ]; then
-#    echo "Checksum verification failed for fabric-api-0.87.2+1.19.4.jar. Exiting."
-#    exit 1
-#fi
-
-# Example mod download with checksum verification (replace with actual mod URLs and checksums)
-#mod_url="https://github.com/mtroope/minecraftserver/raw/main/minecraftgpt-1.0.0.jar"
-#mod_checksum="6DAFF17B53255B94E45A92D9516D5E27545FA1094499181F11EC58434B332E54"
-#wget $mod_url -O mods/mod.jar
-
-# Verify the checksum
-#downloaded_checksum=$(sha256sum mods/minecraftgpt-1.0.0.jar | awk '{ print $1 }')
-#if [ "$downloaded_checksum" != "$mod_checksum" ]; then
-#    echo "Checksum verification failed for minecraftgpt-1.0.0.jar. Exiting."
-#    exit 1
-#fi
-
 # Example mod download (replace with actual mod URLs)
 #wget https://github.com/mtroope/minecraftserver/raw/main/fabric-api-0.87.2+1.19.4.jar -O mods/fabric-api-0.87.2+1.19.4.jar
 #$wget https://github.com/mtroope/minecraftserver/raw/main/minecraftgpt-1.0.0.jar -O mods/minecraftgpt-1.0.0.jar
