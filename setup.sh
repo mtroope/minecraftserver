@@ -17,14 +17,6 @@ java -jar fabric-installer.jar server -mcversion 1.17.1 -downloadMinecraft
 # Accept the EULA
 echo "eula=true" > eula.txt
 
-# Create mods directory
-mkdir mods
-
-# Example mod download (replace with actual mod URLs)
-#wget https://github.com/mtroope/minecraftserver/raw/main/fabric-api-0.87.2+1.19.4.jar -O mods/fabric-api-0.87.2+1.19.4.jar
-#$wget https://github.com/mtroope/minecraftserver/raw/main/minecraftgpt-1.0.0.jar -O mods/minecraftgpt-1.0.0.jar
-
-
 # Create a startup script
 cat <<EOL > start.sh
 #!/bin/bash
